@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Block vs Inline Elements</title>
+    <!--This style block uses the .inline class
+    to force things to be inline, and gives them a bg color-->
     <style>
         .inline {
             display: inline;
@@ -22,9 +24,10 @@
 
 <h2>Inline Elements</h2>
 <div>
-    <p>This is an inline element.</p>
-    <p>Inline elements do not start on a new line and only take up as much width as necessary.</p>
-    <p>They flow horizontally, allowing other elements to sit beside them.</p>
+    <!--<p> is by default horizontal. Adding .inline fixes that.-->
+    <p class="inline">This is an inline element.</p>
+    <p class="inline">Inline elements do not start on a new line and only take up as much width as necessary.</p>
+    <p class="inline">They flow horizontally, allowing other elements to sit beside them.</p>
 </div>
 
 </body>
