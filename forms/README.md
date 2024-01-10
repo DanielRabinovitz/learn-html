@@ -13,7 +13,13 @@
 
 ## Questions for you to answer
 1. What is the purpose of the _action_ attribute in the _form_ tag?
+
+Action tells the form where to send the information. One part of the attribute is the server, and the other part says to send the information to the /login get request in the javascript file.
+
 2. What is the purpose of the _method_ attribute in the _form_ tag?
+
+
+
 3. What is the purpose of the _name_ attribute in the _input_ tag?
 4. What is the purpose of the _type_ attrbute in the _input_ tag?
 5. What is the purpose of the _label_ tag?
